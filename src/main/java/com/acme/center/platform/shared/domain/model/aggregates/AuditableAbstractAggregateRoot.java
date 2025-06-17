@@ -1,5 +1,10 @@
 package com.acme.center.platform.shared.domain.model.aggregates;
 
+//ES UNA SUPERCLASE QUE HEREDARAN TODOS LOS AGGREGATE ROOT QUE REQUIERAN
+// ID AUTOMATICO
+// AUDITORIA (FECHAS DE CREACION Y MODIFICACION)
+//SOPORTE PARA DOMAIN EVENTS
+
 import jakarta.persistence.*;
 import lombok.Getter;
 import org.springframework.data.annotation.CreatedDate;

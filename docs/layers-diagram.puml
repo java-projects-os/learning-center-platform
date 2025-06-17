@@ -1,0 +1,20 @@
+@startuml
+package learning-center-backend as learning_center_backend  {
+    package learning {
+        package domain {}
+    }
+    package profiles {
+        package domain {}
+    }
+    package shared {
+        package domain {}
+        package infrastructure {}
+    }
+}
+package org.springframework.data.domain {}
+package org.hibernate.boot.model.naming {}
+
+learning_center_backend.learning.domain ..> org.springframework.data.domain
+learning_center_backend.profiles.domain ..> org.springframework.data.domain
+learning_center_backend.shared.domain ..> org.springframework.data.domain
+@enduml
