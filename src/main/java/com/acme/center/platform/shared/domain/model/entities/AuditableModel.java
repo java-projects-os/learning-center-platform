@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.shared.domain.model.entities;
 
 import jakarta.persistence.*;
@@ -27,4 +26,3 @@ public class AuditableModel {
     @Column(nullable = false)
     private Date updatedAt;
 }
-

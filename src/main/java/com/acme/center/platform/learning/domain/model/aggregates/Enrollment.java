@@ -81,4 +81,3 @@ public class Enrollment extends AuditableAbstractAggregateRoot<Enrollment> {
         this.registerEvent(new TutorialCompletedEvent(this, this.getId(), tutorialId));
     }
 }
-

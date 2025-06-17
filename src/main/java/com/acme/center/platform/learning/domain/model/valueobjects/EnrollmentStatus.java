@@ -13,4 +13,3 @@ public enum EnrollmentStatus {
     REJECTED,
     CANCELLED
 }
-

@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.learning.domain.model.entities;
 
 import com.acme.center.platform.learning.domain.model.aggregates.Enrollment;
@@ -121,4 +120,3 @@ public class ProgressRecordItem extends AuditableModel {
     }
 
 }
-

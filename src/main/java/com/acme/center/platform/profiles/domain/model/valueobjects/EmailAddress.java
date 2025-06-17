@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.profiles.domain.model.valueobjects;
 
 import jakarta.persistence.Embeddable;
@@ -16,4 +15,3 @@ public record EmailAddress(@Email String address) {
         this(null);
     }
 }
-

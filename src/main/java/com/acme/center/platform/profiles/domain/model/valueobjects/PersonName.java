@@ -34,4 +34,3 @@ public record PersonName(String firstName, String lastName) {
         }
     }
 }
-

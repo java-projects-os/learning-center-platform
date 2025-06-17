@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.learning.domain.model.events;
 
 import com.acme.center.platform.learning.domain.model.valueobjects.TutorialId;
@@ -27,4 +26,3 @@ public class TutorialCompletedEvent extends ApplicationEvent {
         this.tutorialId = tutorialId;
     }
 }
-

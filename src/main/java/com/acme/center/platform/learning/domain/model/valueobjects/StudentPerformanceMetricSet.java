@@ -47,4 +47,3 @@ public record StudentPerformanceMetricSet(Integer totalCompletedCourses, Integer
         return new StudentPerformanceMetricSet(totalCompletedCourses, totalCompletedTutorials + 1);
     }
 }
-

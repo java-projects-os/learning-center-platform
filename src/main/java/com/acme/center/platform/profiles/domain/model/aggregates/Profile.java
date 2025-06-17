@@ -103,4 +103,3 @@ public class Profile extends AuditableAbstractAggregateRoot<Profile> {
         this.emailAddress = new EmailAddress(email);
     }
 }
-

@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.learning.domain.model.aggregates;
 
 import com.acme.center.platform.learning.domain.model.valueobjects.AcmeStudentRecordId;
@@ -113,4 +112,3 @@ public class Student extends AuditableAbstractAggregateRoot<Student> {
         return this.performanceMetricSet.totalCompletedTutorials();
     }
 }
-

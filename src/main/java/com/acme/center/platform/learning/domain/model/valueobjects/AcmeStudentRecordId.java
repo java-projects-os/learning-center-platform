@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.learning.domain.model.valueobjects;
 
 import jakarta.persistence.Embeddable;
@@ -31,4 +30,3 @@ public record AcmeStudentRecordId(String studentRecordId) {
         }
     }
 }
-

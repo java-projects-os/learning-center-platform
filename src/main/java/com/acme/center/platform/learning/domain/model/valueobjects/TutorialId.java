@@ -19,4 +19,3 @@ public record TutorialId(Long tutorialId) {
         }
     }
 }
-

@@ -1,4 +1,3 @@
-
 package com.acme.center.platform.shared.infrastructure.persistence.jpa.configuration.strategy;
 
 import org.hibernate.boot.model.naming.Identifier;
@@ -66,4 +65,3 @@ public class SnakeCaseWithPluralizedTablePhysicalNamingStrategy implements Physi
         return Identifier.toIdentifier(newName);
     }
 }
-
